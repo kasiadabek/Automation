@@ -2,7 +2,7 @@ public class BankAccount {
     private float accountBalance;
 
     public BankAccount() {
-        accountBalance = 0;
+        this.accountBalance = 0;
     }
     public BankAccount(float accountBalance) {
         this.accountBalance = accountBalance;
