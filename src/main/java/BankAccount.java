@@ -8,7 +8,7 @@ public class BankAccount {
         this.accountBalance = accountBalance;
     }
 
-    public boolean whitdraw(float amount) {
+    public boolean withdraw(float amount) {
         if(amount > this.accountBalance){
             return false;
         }
